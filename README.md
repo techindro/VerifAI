@@ -1,9 +1,6 @@
 # VerifAI
 # Awesome - AI Fake News & Deepfake Detector
 
-![from internet](cover.jpg)
-<small>*(image from internet)*</small>
-
 ## 🔍 Features
 - Detect fake news using BERT NLP model
 - Simulate deepfake detection
