@@ -1,6 +1,12 @@
 # VerifAI
 # Awesome - AI Fake News & Deepfake Detector
 
+# ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+
+![from internet](cover.jpg)
+<small>*(image from internet)*</small>
+
+
 ## 🔍 Features
 - Detect fake news using BERT NLP model
 - Simulate deepfake detection
@@ -22,11 +28,6 @@ python -m pip install verifai
 git clone https://github.com/BerkeleyLearnVerify/VerifAI
 cd VerifAI
 python -m pip install -e .
-
-# ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
-
-![from internet](cover.jpg)
-<small>*(image from internet)*</small>
 
 
 
