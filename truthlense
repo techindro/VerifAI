@@ -1,0 +1,43 @@
+truthlens-ai/
+├── backend/                            # 🧠 AI + Flask API
+│   ├── app.py                          # Main Flask application
+│   ├── requirements.txt                # Python libraries
+│   ├── fake_news_model/               # Fake news detection module
+│   │   ├── model.py                    # Model load & predict code
+│   │   ├── sample_input.txt            # Sample news article
+│   │   └── test_fake_news.py           # Testing script
+│   ├── deepfake_model/                # Deepfake detection module
+│   │   ├── detect.py                   # Main deepfake detection logic
+│   │   ├── helper.py                   # Utilities (frame extraction etc.)
+│   │   └── sample_video.mp4            # Test video
+│   ├── static/                        # Output assets or test images
+│   │   └── result_frame.png
+│   └── templates/                     # Flask HTML frontend (optional)
+│       └── index.html
+│
+├── frontend/                           # 🌐 Web UI (React or Vanilla JS)
+│   ├── index.html                      # Main frontend page (if plain HTML)
+│   ├── app.js                          # JavaScript logic to call backend
+│   ├── style.css                       # CSS file
+│   └── assets/
+│       └── logo.png                    # Project logo (optional)
+│
+├── extension/                          # (Optional) Browser Extension
+│   ├── manifest.json
+│   ├── background.js
+│   ├── content.js
+│   └── icon.png
+│
+├── data/                               # 🗃️ Sample datasets (optional)
+│   ├── fake_news_dataset.csv
+│   └── deepfake_samples/
+│       └── test1.mp4
+│
+├── docs/                               # 📄 PPT, Reports, Pitch
+│   ├── presentation.pptx               # Final pitch deck
+│   ├── project_summary.pdf             # One-pager summary
+│   └── video_demo_script.txt           # Script for final demo
+│
+├── .gitignore                          # Git ignore file
+├── README.md                           # Project intro + how to run
+└── LICENSE                             # Optional: Open source license
